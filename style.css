@@ -1,0 +1,104 @@
+*{
+  box-sizing: border-box;
+  /*Declare Color Variables*/
+  --color1: orange;
+  --color2: rgb(187, 187, 187);
+  
+}
+
+body{
+  background: white;
+  color:black;
+  line-height:1.6;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding:1em;
+}
+
+.container{
+  max-width:100%;
+  margin-left:auto;
+  margin-right:auto;
+  padding:1em;
+}
+.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
+.topnav li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: orange;
+}
+
+
+.brand{
+  text-align: center;
+}
+
+.brand span{
+  color: var(--color1);
+}
+
+.wrapper{
+  box-shadow: 0 0 20px 0 rgba(72,94,116,0.7);
+}
+
+.wrapper > *{
+  padding: 1em;
+}
+
+.company-info{
+  background: var(--color2);
+}
+
+.company-info h3, .company-info ul{
+  text-align: center;
+  margin:0 0 1rem 0;
+}
+
+.contact{
+  background:#f9feff;
+  margin:0 0 1rem 0;
+}
+
+/* Comment */
+
+
+
+/* LARGE SCREENS */
+@media(min-width:700px){
+  .wrapper{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+
+  .wrapper > *{
+    padding:2em;
+  }
+
+  .company-info h3, .company-info ul, .brand{
+    text-align: left;
+  }
+}
