@@ -2,7 +2,8 @@
   box-sizing: border-box;
   /*Declare Color Variables*/
   --color1: orange;
-  --color2: rgb(187, 187, 187);
+  --color2: whitesmoke;
+  /*--color2: rgb(187, 187, 187);*/
   
 }
 
@@ -40,7 +41,7 @@ li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 10px 16px;
+  padding: 2px 16px;
   text-decoration: none;
 }
 
@@ -51,7 +52,6 @@ li a:hover:not(.active) {
 .active {
   background-color: orange;
 }
-
 
 .brand{
   text-align: center;
@@ -89,15 +89,15 @@ li a:hover:not(.active) {
   padding: 0em;
 }
 
-/* Comment */
-
-
+h1{
+  line-height:1;
+}
 
 /* LARGE SCREENS */
 @media(min-width:700px){
   .wrapper{
-    display: grid;
-    grid-template-columns: 0.5fr 2fr;
+    /*display: grid;
+    grid-template-columns: 0.5fr 2fr;*/
   }
 
   .wrapper > *{
