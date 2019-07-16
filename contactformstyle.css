@@ -58,11 +58,6 @@ li a:hover:not(.active) {
 }
 
 
-
-
-
-
-
 .brand{
   text-align: center;
 }
@@ -85,11 +80,11 @@ li a:hover:not(.active) {
 
 .company-info h3, .company-info ul{
   text-align: center;
-  margin:0 0 1rem 0;
+  margin:0 0 0rem 0;
 }
 
 .contact{
-  background:#f9feff;
+  background:whitesmoke;
 }
 
 /* FORM STYLES */
@@ -153,5 +148,9 @@ li a:hover:not(.active) {
 
   .company-info h3, .company-info ul, .brand{
     text-align: left;
+  }
+
+  .company-info h3, .company-info ul{
+    margin:0 0 1rem 0;
   }
 }
