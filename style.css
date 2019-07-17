@@ -2,7 +2,7 @@
   box-sizing: border-box;
   /*Declare Color Variables*/
   --color1: orange;
-  --color2: whitesmoke;
+  --color2: white;
   /*--color2: rgb(187, 187, 187);*/
   
 }
@@ -79,7 +79,7 @@ li a:hover:not(.active) {
 }
 
 .contact{
-  background:whitesmoke;
+  background:white;
   margin:0;
 }
 
