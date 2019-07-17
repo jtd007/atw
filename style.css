@@ -1,7 +1,7 @@
 *{
   box-sizing: border-box;
   /*Declare Color Variables*/
-  --color1: orange;
+  --color1: red;
   --color2: white;
   /*--color2: rgb(187, 187, 187);*/
   
@@ -92,6 +92,7 @@ li a:hover:not(.active) {
 h1{
   line-height:1;
   font-size: 1.75em;
+  padding-top: 1%;
 }
 
 /* LARGE SCREENS */
