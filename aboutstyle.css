@@ -98,7 +98,8 @@ h1{
   line-height:0.75;
   padding: 0em;
   margin: 5px;
-  font-size: 1.8em;
+  transform: scale(1, 1);
+
 }
 
 /* LARGE SCREENS */
