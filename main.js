@@ -48,9 +48,10 @@ function getInputVal(id){
   return document.getElementById(id).value;
 }
 
-// Get current date and time
+// Get current date and time (not in use)
 var _now = new Date().getTime();
-//Footer Date
+
+// Footer Date
 var today = new Date().toDateString()
 
 // Save message to firebase
