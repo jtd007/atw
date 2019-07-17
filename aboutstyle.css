@@ -95,10 +95,11 @@ li a:hover:not(.active) {
 }
 
 h1{
-  line-height:0.75;
+  line-height:1;
   padding: 0em;
   margin: 5px;
-  text-align: justify;
+  display: inline-block;
+  width: 100%;
 
 }
 
