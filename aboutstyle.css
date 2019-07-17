@@ -98,6 +98,7 @@ h1{
   line-height:0.75;
   padding: 0em;
   margin: 5px;
+  font-size: 1.8em;
 }
 
 /* LARGE SCREENS */
@@ -108,10 +109,15 @@ h1{
   }
 
   .wrapper > *{
-    padding:1em;
+   
   }
 
   .company-info h3, .company-info ul, .brand{
     text-align: left;
+    margin:0 0 1rem 0;
+  }
+
+  h1{
+    font-size: 2em;
   }
 }
