@@ -1,10 +1,10 @@
 *{
   box-sizing: border-box;
   /*Declare Color Variables*/
-  --color1: orange;
+  --color1: red;
   --color2: white;
   /*--color2: rgb(187, 187, 187);*/
-  
+ 
 }
 
 body{
@@ -55,6 +55,7 @@ li a:hover:not(.active) {
 
 .brand{
   text-align: center;
+  padding-top: 0%;
 }
 
 .brand span{
@@ -62,11 +63,12 @@ li a:hover:not(.active) {
 }
 
 .wrapper{
-
   border-radius: 15px;
   border: 2px solid gray;
   padding: 15px; 
   width: 100%;
+  /* To move H1 up*/
+  /*padding-top: 0%;*/
   
 }
 
@@ -98,7 +100,7 @@ h1{
   line-height:1;
   padding: 0em;
   margin: 5px;
-  font-size: 1.85em;
+  font-size: 1.65em;
 
 }
 
@@ -120,6 +122,6 @@ h1{
   }
 
   h1{
-    font-size: 2em;
+    font-size: 2em;   
   }
 }
