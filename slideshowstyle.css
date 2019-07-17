@@ -84,10 +84,10 @@ li a:hover:not(.active) {
 .contact{
   background:white;
   margin:0;
-  /* To center pics*/
+  /* To center pics
   display: block;
   margin-left: auto;
-  margin-right: auto;
+  margin-right: auto;*/
 }
 
 
