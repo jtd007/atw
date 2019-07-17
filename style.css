@@ -67,6 +67,7 @@ li a:hover:not(.active) {
 
 .wrapper > *{
   padding: 1em;
+  width: 100%;
 }
 
 .company-info{
