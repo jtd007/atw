@@ -63,8 +63,7 @@ li a:hover:not(.active) {
 }
 
 .wrapper{
-  border-radius: 15px;
-  border: 2px solid gray;
+
   padding: 15px; 
   width: 100%;
   /* To move H1 up*/
@@ -72,9 +71,6 @@ li a:hover:not(.active) {
   
 }
 
-.wrapper > *{
-  
-}
 
 .company-info{
   background: white;
@@ -99,25 +95,23 @@ h1{
   line-height:1;
   padding: 0em;
   margin: 5px;
-  font-size: 1.53em;
+  font-size: 1.75em;
   padding-left: 0%;
   padding-right: 0%;
 
 }
-img{
-  ;
-}
+
 /* Top Thumbnail padding between large pic */
-.w3-section{margin-top:16px!important;margin-bottom:16px!important}
+.section{margin-top:16px!important;margin-bottom:16px!important}
 
 /* Thumbnail padding */
-.w3-row-padding>.w3-col{padding:0 8px}
+.row-padding>.col{padding:0 8px}
 
 /* Thumbnail Opacity */
-.w3-opacity,.w3-hover-opacity:hover{opacity:0.60}
-.w3-opacity-off,.w3-hover-opacity-off:hover{opacity:1}
-.w3-col,.w3-half,.w3-third,.w3-twothird,.w3-threequarter,.w3-quarter{float:left;width:100%}
-.w3-col.s4{width:33.33333%}
+.opacity,.hover-opacity:hover{opacity:0.60}
+.opacity-off,.hover-opacity-off:hover{opacity:1}
+.col{float:left;width:100%}
+.col.s3{width:33.33333%}
 
 
 /* LARGE SCREENS */
@@ -127,12 +121,8 @@ img{
     grid-template-columns: 0.5fr 2fr;*/
   }
 
-  .wrapper > *{
-   
-  }
-
   .company-info h3, .company-info ul, .brand{
-    text-align: left;
+    /*text-align: left;*/
     
  
   }
