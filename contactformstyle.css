@@ -45,7 +45,7 @@ li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 10px 16px;
+  padding: 2px 16px;
   text-decoration: none;
 }
 
@@ -56,7 +56,6 @@ li a:hover:not(.active) {
 .active {
   background-color: orange;
 }
-
 
 .brand{
   text-align: center;
@@ -133,6 +132,10 @@ li a:hover:not(.active) {
   color:#fff;
   margin-bottom:10px;
   display:none;
+}
+
+h1{
+  line-height:1;
 }
 
 /* LARGE SCREENS */
