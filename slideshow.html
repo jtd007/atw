@@ -36,8 +36,13 @@
 <body>
 
 <div class="container">
-  <h2>Slideshow Indicators</h2>
-  <p>Using images to indicate how many slides there are in the slideshow, and highlight the image the user is currently viewing.</p>
+  <div class="wrapper">
+    <div class="company-info">
+      <h1 class="brand"><span><script>document.write(company);</script></span> <script>document.write(name);</script></h1>
+  </div>
+    </div>
+    <h2>Heading</h2>
+  <p>Paragraph about the person or company. This has one space.  While this hase two spaces.</p>
 </div>
 
 <div class="contact" style="max-width:1200px">
@@ -45,15 +50,15 @@
   <img class="mySlides" src="slidepics/img_fjords_wide.jpg" style="width:100%">
   <img class="mySlides" src="slidepics/img_mountains_wide.jpg" style="width:100%">
 
-  <div class="w3-row-padding w3-section">
-    <div class="w3-col s4">
-      <img class="demo w3-opacity w3-hover-opacity-off" src="slidepics/img_nature_wide.jpg" style="width:100%" onclick="currentDiv(1)">
+  <div class="row-padding section">
+    <div class="col s3">
+      <img class="demo opacity hover-opacity-off" src="slidepics/img_nature_wide.jpg" style="width:100%" onclick="currentDiv(1)">
     </div>
-    <div class="w3-col s4">
-      <img class="demo w3-opacity w3-hover-opacity-off" src="slidepics/img_fjords_wide.jpg" style="width:100%" onclick="currentDiv(2)">
+    <div class="col s3">
+      <img class="demo opacity hover-opacity-off" src="slidepics/img_fjords_wide.jpg" style="width:100%" onclick="currentDiv(2)">
     </div>
-    <div class="w3-col s4">
-      <img class="demo w3-opacity w3-hover-opacity-off" src="slidepics/img_mountains_wide.jpg" style="width:100%" onclick="currentDiv(3)">
+    <div class="col s3">
+      <img class="demo opacity hover-opacity-off" src="slidepics/img_mountains_wide.jpg" style="width:100%" onclick="currentDiv(3)">
     </div>
   </div>
 </div>
@@ -80,10 +85,10 @@ function showDivs(n) {
      x[i].style.display = "none";
   }
   for (i = 0; i < dots.length; i++) {
-     dots[i].className = dots[i].className.replace(" w3-opacity-off", "");
+     dots[i].className = dots[i].className.replace(" opacity-off", "");
   }
   x[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " w3-opacity-off";
+  dots[slideIndex-1].className += " opacity-off";
 }
 </script>
 </body>
