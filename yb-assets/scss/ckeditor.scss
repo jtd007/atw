@@ -1,0 +1,126 @@
+@import '../../assets/scss/colors';
+
+
+ /* THESE VALUES SHOULD MATCH THE SITE'S MAIN STYLES */
+html {font-size:62.5%;}
+
+body {
+  font-family:'Raleway', Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-size:1.8em; // use an EM here vs. REM to overcome a chrome font-size initial load bug
+  color: #000;
+  line-height: 2.6rem;
+  font-weight: normal;
+  padding:5px;
+  margin:0;
+}
+
+table{
+  font-family:'Raleway', Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-size:1.5em; // use an EM here vs. REM to overcome a chrome font-size initial load bug
+  color: #000;
+  line-height: 2.6rem;
+  font-weight: normal;
+  margin:0;
+  font-size:1.5rem;
+    border-collapse: collapse;
+   // margin-bottom:1.5rem; disabled, placed on wrapping <div> element
+    max-width:100%;
+    
+    th {
+        font-weight:bold;
+        color:$dark-blue;
+    }
+}
+
+a:link {
+        color:$green;
+        text-decoration:underline;
+}
+
+a:visited {
+        color:#afb0ae;
+        text-decoration:none;	
+}
+
+a:hover, 
+a:active {
+        color:$dark-blue;
+        text-decoration:underline;
+}
+
+/* Make sure visual aid only applies to backend editing using #cke_editable */
+
+#cke_editable table {
+    margin-bottom:2rem;
+    padding:5px;
+}
+
+#cke_editable table td,
+#cke_editable table th{
+        border: 1px dotted silver !important; /* visual aid for content editor */
+        border-collapse: separate;
+}
+
+/* special style for links */
+/* note: replicated elsewhere in styles.scss for use in sidebar content areas */
+
+.callout-link {
+    display:inline-block;
+    background:$light-blue;
+    border-radius:1.5rem;
+    color:#FFF !important;
+    font-weight:bold;
+    padding:.2rem 1.5rem;
+    text-decoration:none !important;
+
+    &:hover {
+        background:$green;
+    }
+}
+
+/* Basic HTML set up */
+
+strong {font-weight: bold;}
+em {font-style: italic;}
+sup { font-size:.8rem; }
+
+h2 {
+    font-size:2.2rem;
+    font-weight:700;
+    margin-bottom:.3rem;
+    text-transform: uppercase;
+    color:$green;
+}
+
+h3 {
+    font-size:2rem;
+    font-weight:700;
+    margin-bottom:.3rem;
+    text-transform: uppercase;
+    color:$dark-blue;
+}
+
+p { 
+    margin: 0 0 2rem 0;
+    line-height:2.6rem;
+}
+
+ul {
+    list-style:disc;
+    margin:0 0 2rem 2.5rem;
+    padding:0;
+}
+
+ol {
+    list-style:decimal;	
+    margin:0 0 2rem 2.5rem;
+    padding:0;
+    
+}
+
+li {
+    margin-bottom:.6rem;
+    line-height: 1.3em;
+}
