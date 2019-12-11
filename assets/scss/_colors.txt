@@ -1,0 +1,5 @@
+
+// Site colors
+$dark-blue: #133595;
+$light-blue: #8bc7ea;
+$green: #80bd01;
